@@ -5,7 +5,6 @@ from googleKwSuggester import GoogleKwSuggester
 
 if __name__ == "__main__":
     phrase = input('please input query: ')
-    print("keyword is:" + phrase)
     gs = GoogleKwSuggester(test_mode=True)
     # gs = GoogleKwSuggester()
     # gs = GoogleKwSuggester(recurse_mode='--recurse')
