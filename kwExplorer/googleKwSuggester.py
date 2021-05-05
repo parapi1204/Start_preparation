@@ -16,7 +16,7 @@ class GoogleKwSuggester:
         self.recurse_mode = recurse_mode
 
         os.chdir(os.path.dirname(os.path.abspath(__file__)))
-        characters = open('table_hiragana.txt', 'r')
+        characters = open('table_hiragana.txt', 'r', encoding="utf-8")
         char_list = []
         for c in characters:
             c = c.rstrip()
